@@ -1,0 +1,42 @@
+.box{
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: rgb(34,34,34);
+    text-align: center;
+}
+.number{
+    outline: none;
+    border: none;
+    width: 50px;
+    font-size: 20px;
+    background-color: rgb(226,219,219);
+}
+.in{
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.box img{
+    width: 50px;
+    transition: 0.25s;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(38,197,123);
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: rgb(38,197,123);
+    border: 1px solid rgb(38,197,123);
+}
+img:hover{
+    filter: opacity(0.5);
+    cursor: pointer;
+}
